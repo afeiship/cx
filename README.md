@@ -1,6 +1,10 @@
 # next-clsx
 > Another `className` strings conditionally based on next
 
+## thanks to:
+- https://github.com/lukeed/clsx/blob/master/src/index.js
+- https://github.com/JedWatson/classnames/blob/master/index.js
+
 ## install:
 ```bash
 npm install -S afeiship/next-clsx --registry=https://registry.npm.taobao.org

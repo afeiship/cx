@@ -4,7 +4,7 @@
   var BLANK = ' ';
 
   // https://github.com/lukeed/clsx/blob/master/src/index.js
-  // https://github.com/JedWatson/classnames/blob/master/index.jsF
+  // https://github.com/JedWatson/classnames/blob/master/index.js
   nx.clsx = function() {
     var classes = [];
     nx.forEach(arguments, function(arg) {
