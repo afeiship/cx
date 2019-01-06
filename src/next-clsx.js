@@ -7,7 +7,7 @@
   // https://github.com/JedWatson/classnames/blob/master/index.jsF
   nx.clsx = function() {
     var classes = [];
-    nx.each(arguments, function(_, arg) {
+    nx.forEach(arguments, function(arg) {
       if (arg) {
         var argType = typeof arg;
         if (argType === 'string' || argType === 'number') {
