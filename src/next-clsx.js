@@ -3,6 +3,8 @@
   var nx = global.nx || require('next-js-core2');
   var BLANK = ' ';
 
+  // https://github.com/lukeed/clsx/blob/master/src/index.js
+  // https://github.com/JedWatson/classnames/blob/master/index.jsF
   nx.clsx = function() {
     var classes = [];
     nx.each(arguments, function(_, arg) {
@@ -15,9 +17,7 @@
           inner && classes.push(inner);
         } else if (argType === 'object') {
           nx.forIn(arg, function(key, value) {
-            if (value) {
-              classes.push(key);
-            }
+            value && classes.push(key);
           });
         }
       }
