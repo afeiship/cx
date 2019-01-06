@@ -1,0 +1,28 @@
+{
+  "name": "next-clsx",
+  "version": "0.0.1",
+  "description": "Another `className` strings conditionally based on next",
+  "main": "dist/next-clsx.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-clsx",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
