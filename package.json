@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A function for `className` strings conditionally.",
   "homepage": "https://js.work",
-  "module": "dist/cx.esm.js",
-  "unpkg": "dist/cx.min.js",
-  "main": "dist/cx.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.min.js",
+  "main": "dist/index.js",
   "types": "index.d.ts",
   "author": {
     "name": "afeiship",
